@@ -78,3 +78,53 @@ h1{
     position: absolute;
     bottom: 30px;
 }
+.bubbles img{
+    width: 50px;
+    animation: bubbles 7s linear infinite;
+}
+  @keyframes bubbles{
+      0%{
+          transform: translateY(o);
+          opacity: 0;
+      }
+      50%{
+          transform: translateY(o);
+          opacity: 1;
+      }
+      70%{
+          transform: translateY(o);
+          opacity: 1;
+      }
+      100%{
+          transform: translateY(-80vh);
+          opacity: 0;
+      }
+  }
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+}
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+}
+.bubbles img:nth-child(2){
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 3s;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.bubbles img:nth-child(5){
+    animation-delay: 3s;
+}
+.bubbles img:nth-child(6){
+    animation-delay: 6s;
+}.bubbles img:nth-child(7){
+    animation-delay: 3.5s;
+}
