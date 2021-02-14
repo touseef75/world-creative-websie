@@ -32,3 +32,20 @@ button{
     border-radius: 20px;
     outline: none;
 }
+.content{
+    color: #fbfcfd;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+h1{
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+/* side bar */
+.side-bar{
+    
+}
